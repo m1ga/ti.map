@@ -99,7 +99,7 @@ public class TiUIMapView extends TiUIView
 		String packageName = proxy.getActivity().getPackageName();
 		Resources resources = proxy.getActivity().getResources();
 		View viewWrapper;
-		int resId_viewHolder = resources.getIdentifier("layout_lottie", "layout", packageName);
+		int resId_viewHolder = resources.getIdentifier("layout_map", "layout", packageName);
 		LayoutInflater inflater = LayoutInflater.from(proxy.getActivity());
 		viewWrapper = inflater.inflate(resId_viewHolder, null);
 
